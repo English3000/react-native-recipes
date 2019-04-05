@@ -1,10 +1,10 @@
 import React from "react"
 import "react-native"
 import { create } from "react-test-renderer"
-import VideoPlayer from "../index"
+import Controls from "../Controls"
 
 it("renders", () => {
   expect(
-    create(<VideoPlayer />).toJSON()
+    create(<Controls />).toJSON()
   ).toMatchSnapshot()
 })

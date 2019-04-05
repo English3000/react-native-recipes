@@ -1,9 +1,130 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`renders 1`] = `
-<View>
-  <Text>
-    working!
-  </Text>
+<View
+  accessibilityIgnoresInvertColors={true}
+  style={
+    Object {
+      "height": "100%",
+      "width": "100%",
+    }
+  }
+>
+  <Image
+    source={
+      Object {
+        "uri": "https://s3.amazonaws.com/crysfel/public/book/new-york.jpg",
+      }
+    }
+    style={
+      Array [
+        Object {
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        },
+        Object {
+          "height": "100%",
+          "width": "100%",
+        },
+        undefined,
+      ]
+    }
+  />
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+        "position": "absolute",
+      }
+    }
+  >
+    <Image
+      source={
+        Object {
+          "testUri": "../../../icons/play.png",
+        }
+      }
+      style={
+        Object {
+          "height": 16,
+          "marginHorizontal": 5,
+          "tintColor": "white",
+          "width": 16,
+        }
+      }
+    />
+    <Image
+      source={
+        Object {
+          "testUri": "../../../icons/volume.png",
+        }
+      }
+      style={
+        Object {
+          "height": 16,
+          "marginHorizontal": 5,
+          "tintColor": "white",
+          "width": 16,
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "backgroundColor": "black",
+          "borderRadius": 7,
+          "flex": 1,
+          "height": 14,
+          "margin": 10,
+          "marginTop": 2,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "lime",
+            "borderRadius": 5,
+            "height": 10,
+            "margin": 2,
+            "width": 80,
+          }
+        }
+      />
+    </View>
+    <Image
+      source={
+        Object {
+          "testUri": "../../../icons/HD.png",
+        }
+      }
+      style={
+        Object {
+          "height": 16,
+          "marginHorizontal": 5,
+          "tintColor": "white",
+          "width": 16,
+        }
+      }
+    />
+    <Image
+      source={
+        Object {
+          "testUri": "../../../icons/expand.png",
+        }
+      }
+      style={
+        Object {
+          "height": 16,
+          "marginHorizontal": 5,
+          "tintColor": "white",
+          "width": 16,
+        }
+      }
+    />
+  </View>
 </View>
 `;
